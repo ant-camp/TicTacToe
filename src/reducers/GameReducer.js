@@ -57,10 +57,6 @@ export const gameReducer = (state, action) => {
 
       return newState;
     case 'RESTART_GAME':
-    console.log({...initialState,
-          xWins:state.xWins,
-          yWins:state.yWins
-        });
       return {...initialState,
             xWins:state.xWins,
             oWins:state.oWins
