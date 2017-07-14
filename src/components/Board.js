@@ -58,7 +58,6 @@ class Board extends Component {
 }
 
 //Board Property types
-//explain it and why were using it
 Board.propTypes = {
   board: React.PropTypes.object.isRequired,
   turn: React.PropTypes.string.isRequired,
